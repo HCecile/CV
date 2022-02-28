@@ -3,16 +3,14 @@ h2 {
   color: rgb(43, 22, 100);
   text-align: center;
 }
-header,
-footer {
+header{
   padding: 20px 20px 20px 20px;
   margin-bottom: 40px;
   margin-top: 40px;
   border: double rgb(43, 22, 100);
 }
 header,
-h2,
-footer {
+h2{
   background-color: rgba(59, 100, 236, 0.486);
   background-size: 100%;
 }
@@ -26,6 +24,9 @@ h1 {
   outline: 5px solid rgb(43, 22, 100);
   font-family: cursive;
   text-align: center;
+}
+.theme {
+padding: 10px;
 }
 .coordonnees {
   font-weight: bold;
