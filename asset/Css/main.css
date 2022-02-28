@@ -1,0 +1,102 @@
+h1,h2 {
+    color:rgb(43, 22, 100);
+    text-align: center;
+}
+header, footer {
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    border: double  rgb(43, 22, 100);
+}
+header,h2, footer {
+    background-color: rgba(59, 100, 236, 0.486);
+    background-size: 100%;
+}
+h1 {
+text-shadow: 2px 2px 5px black;
+font-size: 60px;
+}
+.experience {
+    margin: 20px 10px 20px 10px;
+    background-color: rgba(59, 100, 236, 0.486);
+    outline: 5px solid rgb(43, 22, 100);
+    font-family: cursive;
+    text-align: center;
+}
+.coordonnees {
+    font-weight: bold;
+    font-family: cursive;
+    margin: 18px 10px 20px 10px;
+    text-align: center;
+}
+h3 {
+color:rgb(63, 32, 148);
+font-size: 20px;
+font-family: cursive;
+text-align: center;
+}
+.contenu {
+display: flex;
+   justify-content: space-between;
+}
+.skills {
+    display: flex;
+    justify-content: space-around;  
+}
+
+.skills div {
+    text-align: center;
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+p {
+    font-family: cursive;
+    text-align: center;
+}
+
+
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+nav {
+    text-align: center;
+}
+.interet {
+    background-color: rgba(59, 100, 236, 0.486);
+    
+    border: 5px solid rgb(43, 22, 100); 
+    margin-left: 10px;  
+    margin-right: 10px;
+}
+
+h1 {
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+    }
+  30% {
+      margin-left: 150%;
+      font-size: 50%;
+  }
+  65% {
+    margin-left: -60%;
+    font-size: 150%;
+  }
+    to {
+        text-align: center;
+    }
+  }
